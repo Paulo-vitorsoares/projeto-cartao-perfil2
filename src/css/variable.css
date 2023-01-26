@@ -1,0 +1,7 @@
+:root{
+    --background-soft: hsl(185, 75%, 39%);
+
+    --primary-text-soft: hsl(0, 0%, 59%);
+    --primary-text-medium: hsl(227, 10%, 46%);
+    --primary-text-dark: hsl(229, 23%, 23%);
+}

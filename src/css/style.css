@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;600;700&family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    background: var(--background-soft);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 25px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    background-color: #ffff;
+    border-radius: 12px;
+    margin: 20px;
+    width: 350px;
+    height: 450px;
+}
+
+.card .card-profile{
+    background: url(../image/bg-pattern-card.svg) no-repeat top;
+    width: 350px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 60%;
+}
+
+.card .card-profile img{
+    border: solid 5px #ffff;
+    border-radius: 50%;
+    margin-top: 90px;
+}
+
+.card .profile-number{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    text-align: center;
+    border-top: solid 1px var(--background-soft);
+    padding-top: 25px;    
+}
+
+.card .creator{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-top: solid 1px var(--background-soft);
+    padding: 10px 20px;
+}
+
+.card .creator .avatar{
+    max-width: 30px;
+    border: solid 1px var(--background-soft);
+    border-radius: 50%;
+    margin-right: 20px;   
+}
+
+.card .card-profile .name,
+.card .profile-number .info .counter,
+.card .creator .text{
+    color: var(--primary-text-dark);
+    font-weight: 700;
+}
+
+.card .card-profile .name{
+    font-size: 18px;
+}
+.card .card-profile .age{
+    font-weight: 400;
+}
+
+.card .card-profile .city{
+    font-size: 13px;
+}
+
+.card .card-profile .age,
+.card .card-profile .city,
+.card .profile-number .info .counter-type,
+.card .creator .creator-name{
+    color: var(--primary-text-medium);
+}
+
+
+.card .profile-number .info .counter-type{
+    font-size: 10px;
+}
+
+.card .creator .text,
+.card .creator .creator-name{
+    font-size: 10px;
+    font-weight: 700;
+}
+
+
+.card .creator .creator-name:hover{
+    color: var(--background-soft);
+}
